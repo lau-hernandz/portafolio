@@ -2,18 +2,47 @@
 body{
     background-color:rgba(92, 51, 21, 0.897);
     margin: 0;
-
+    padding: 0 8px;
 
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
 }
-
+.mobile_nav{
+    background-color: black;
+    height: 50px;
+    margin-bottom: 8px;
+    width: 100px;
+    border-radius: 30px;
+    position: sticky;
+    top: 20px;
+    
+}
+.desktop_nav{
+  display: none;
+}
+@media screen and (min-width: 950px){
+    .mobile_nav{
+        display: none;
+    }
+    .desktop_nav{
+        display: block;
+        background-color: #0d0e0e;
+        height: 300px;
+        width: 60px;
+        border-radius: 30px;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        position: sticky;
+        top: 40px;
+    }
+}
 .container{
-    height: 100px;
     max-width:800px ;
     width: 100%;
-    margin: 50px auto;
+    margin: 25px auto;
 }
 .section{
     background-color: #462905d2;
