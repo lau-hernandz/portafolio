@@ -6,24 +6,32 @@ body{
 
     font-family: "Roboto", sans-serif;
     font-weight: 300;
-    font-style: normal;
+    font-style:normal;
 }
 .mobile_nav{
     background-color: black;
     height: 50px;
     margin-bottom: 8px;
-    width: 100px;
+    width: 300px;
     border-radius: 30px;
     position: sticky;
     top: 20px;
-    
+    line-height: 3;
+    text-decoration: none;
+
+}
+.mobile_nav a{
+    width: 300px;
+    padding: 4px 19px 0;
 }
 .desktop_nav{
   display: none;
+
 }
 @media screen and (min-width: 950px){
     .mobile_nav{
         display: none;
+        
     }
     .desktop_nav{
         display: block;
@@ -31,6 +39,16 @@ body{
         height: 300px;
         width: 60px;
         border-radius: 30px;
+        position: sticky;
+        top: 20px;
+        line-height: 3;
+        text-decoration: none;
+    }
+    .desktop_nav a{
+        color: #fff;
+        cursor: pointer;
+        display: flex;
+        padding: 4px 19px 0;
     }
     body{
         display: flex;
@@ -38,6 +56,21 @@ body{
         position: sticky;
         top: 40px;
     }
+   
+}
+@media screen and (max-width:680px) {
+    *{
+        box-sizing: border-box;
+    }
+    .section{
+      display: block;
+      flex-wrap: wrap;
+    
+    }
+ }
+.mobile_nav .bi{
+    color: #fff;
+    cursor: pointer;
 }
 .container{
     max-width:800px ;
@@ -79,8 +112,8 @@ body{
     margin-top: 20px;
 }
 .present{
-    font-size: xx-large;
-    font-weight: 300;
+    font-size: x-large;
+    font-weight: 200;
     
 }
 .btn-black{
@@ -127,6 +160,16 @@ body{
     color: #0e0e0e;
     text-align: center;
 }
+.certif{
+    justify-content: space-between;
+   text-align: center;
+    height: 200px;
+    padding:15px 0px 20PX;
+    border: 1px solid rgb(17, 10, 10);
+    border-radius: 10px; 
+    margin: 5px;
+}
+
 .formulario{
     display: flex;
     flex-wrap: wrap;
@@ -169,4 +212,11 @@ body{
 .boton:hover{
     background: #040a145c;
 
+}
+.redes{
+    color: #fff;
+        cursor: pointer;
+        line-height: 3;
+        padding: 10px 50px 0;
+       height: 50px;
 }

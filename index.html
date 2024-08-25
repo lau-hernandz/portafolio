@@ -1,104 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+   
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
+
 <body>
    <div class="desktop_nav">
-         
+      <a href=""><i class="bi bi-house"></i></a>
+      <a href=""><i class="bi bi-bag"></i></a>
+      <a href=""><i class="bi bi-boxes"></i></a>
+      <a href=""><i class="bi bi-chat-text"></i></a>
+      <a href=""><i class="bi bi-send"></i></a>
    </div>
    <div class="container">
       <div class="mobile_nav">
-      
+         
+            <a href="#home"><i class="bi bi-house"></i></a>
+            <a href="#educacion"><i class="bi bi-bag"></i></a>
+            <a href="#proyectos"><i class="bi bi-boxes"></i></a>
+            <a href="#contactos"><i class="bi bi-chat-text"></i></a>
+            <a href=""><i class="bi bi-send"></i></a>
+        
       </div>
-      
-      <div class="section">
-          <div class="subsection">
-              <h1>Laura Hernández Pérez</h1>
-              <p>Web Developer</p>
-              <div class="status">
-                 <p class="p-status">avaliable for work</p>
-                 <div class="dot"></div>
-              </div>
-                 <img class="perfil" src="img/descarga.jpg" alt="laura">
-             </div>
-         <div class="subsection">
-            <p class="present">hello! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ducimus quia culpa sunt similique nesciunt sint ea, minima, deleniti inventore magnam amet! Non autem id ducimus temporibus sequi reprehenderit reiciendis?</p>
+
+      <div id="home" class=" parent section ">
+         <div class="subsection section1">
+            <h1>Laura Hernández Pérez</h1>
+            <p>Web Developer</p>
+            <div class="status">
+               <p class="p-status">avaliable for work</p>
+               <div class="dot"></div>
+            </div>
+            <img class="perfil" src="img/descarga.jpg" alt="laura">
+         </div>
+         <div class="subsection div2">
+            <p class="present"> Hola soy Laura me preparé en el área de Desarrollo web con conocimientos en lenguajes de programación como HTML, CSS, JavaScript y  en diseño de interfaces de usuario. Con habilidades de comunicación efectivas y capacidad para adaptarse a las necesidades individuales de cada cliente. </p>
             <div>
                <button class="btn-black">WORK</button>
                <a href="./cv/actividad.pdf" download="cv_laura">
                   <button class="btn-lined">CV DOWNLOAD</button>
                </a>
-            
+
             </div>
          </div>
       </div>
       <!-- estos section son de relleno -->
-
+      
       <div class="section brands">
-         <img class="item" alt="">
+         <img class="item" src="img/html.png" alt="">
+         <img class="item" src="img/javascript.png" alt="">
+         <img src="img/Logo-Udemy.png" alt="" class="item">
+         <img src="img/github9775.jpg" alt="" class="item">
+         <img src="img/Junior_Achievement.jpg" alt="" class="item">
+         <img src="img/CSS-Logo.png" alt="" class="item">
       </div>
-      <div class="section educacion">
-           <div class="educacion">
-                <h2>EDUCACIÓN</h2>
-                <P>Desarrollo Web</P>
-                <p>Junior Achievement Mujer Digital</p>
-                <p>Actualmente</p><br>
-
-                <h2>EDUCACIÓN</h2>
-                <P>Desarrollo Web</P>
-                <p>Junior Achievement Mujer Digital</p>
-                <p>Actualmente</p><br>
-
-                <h2>EDUCACIÓN</h2>
-                <P>Desarrollo Web</P>
-                <p>Junior Achievement Mujer Digital</p>
-                <p>Actualmente</p>
-           </div>
-           <div class="educacion">
-               <h2>EXPERIENCIA </h2>
-               <P>Desarrollo Web</P>
-               <p>Junior Achievement Mujer Digital</p>
-               <p>Actualmente</p><br>
-
-               <h2>EXPERIENCIA</h2>
-               <P>Desarrollo Web</P>
-               <p>Junior Achievement Mujer Digital</p>
-               <p>Actualmente</p><br>
-
-               <h2>EXPERIENCIA</h2>
-               <P>Desarrollo Web</P>
-               <p>Junior Achievement Mujer Digital</p>
-               <p>Actualmente</p>
-           </div>
+      <div id="educacion" class="section educacion">
+         <div class="educacion">
+            <h2>EDUCACIÓN</h2>
+            <P>Desarrollo Web</P>
+            <p>Junior Achievement Mujer Digital</p>
+            <p>Actualmente</p><br>
+         </div>
+         <div class="educacion">
+            <h2>EXPERIENCIA </h2>
+            <P>Desarrollo Web</P>
+            <p>Junior Achievement Mujer Digital</p>
+            <p>Actualmente</p><br>
+         </div>
       </div>
       <div class="section">
+         <div class="certificaciones">
+            <H3 class="titulo">CERTIFICACIONES</H3>
+            <img class="certif" src="img/explorar-tecn.png" alt="">
+            <img class="certif" src="img/fundamentos-progr.png" alt="">
+            <img class="certif" src="img/git.png" alt="">
+            <img class="certif" src="img/diseño-web.png" alt="">
+            <img class="certif" src="img/js.png" alt="">
+         </div>
+      </div>
+      <div id="proyectos" class="section">
+         <h2>PROYECTOS</h2>
+         <a class="certif"   href="https://estetica-lau.netlify.app/">    <img src="img/estetica.png" alt="" width="300px"></a><BR></BR>
+   
+         <a class="certif" href="https://my-pet-lau.netlify.app/"> <img src="img/my-pet.png" alt="" width="200px"></a>
+        
+      </div>
+
+      <div id="contactos" class="section">
          <div class=" contenedor">
             <h3 class="titulo">
-                 Contactos
-             </h3>
-             <form class="formulario" action="" id="form">
-                 <input type="text" placeholder="Nombre"name="from_name" id="from_name" required>
-                 <input type="text" placeholder="Correo" name="email_id" id="email_id" required>
-                 <input class="mensaje" type="text" name="message" id="message">
-               
-                </form>
-                <input class="boton" type="submit" value="Enviar" id="button">
+               Contactos
+            </h3>
+            <form class="formulario" action="" id="form">
+               <input type="text" placeholder="Nombre" name="from_name" id="from_name" required>
+               <input type="text" placeholder="Correo" name="email_id" id="email_id" required>
+               <input class="mensaje" type="text" name="message" id="message">
+
+            </form>
+            <input class="boton" type="submit" value="Enviar" id="button">
          </div>
-         
+
+      </div>
+      <div class="section">
+         <a class="redes" href="https://github.com/lau-hernandz"><i class="bi bi-github"></i></a>
+         <a class="redes" href="www.linkedin.com/in/laura-hernández-pérez-313445185"><i class="bi bi-linkedin"></i></a>
+         <a class="redes" href="https://www.instagram.com/lauhernan?igsh=aGoxNjI5dzQ2eHl5"><i class="bi bi-instagram"></i></a>
+         <a class="redes" href="https://wa.me/+5217721593113"><i class="bi bi-whatsapp"></i></a>
       </div>
 
    </div>
 
    <script src="email.js"></script>
-   <script type="text/javascript"
-  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
-<script type="text/javascript">
-  emailjs.init('KwWCOvdf0Tcr4HPsF')
-</script>
+   <script type="text/javascript">
+      emailjs.init('KwWCOvdf0Tcr4HPsF')
+   </script>
 </body>
+
 </html>
