@@ -16,6 +16,7 @@ body{
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style:normal;
+    color: #fff;
 }
 video {
     position: fixed;
@@ -183,7 +184,7 @@ video {
     line-height: 34px;
     margin-bottom: 40px;
     font-weight: 300;
-    color: #0e0e0e;
+    color: #ffffff;
     text-align: center;
 }
 .certif{
